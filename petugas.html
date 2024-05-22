@@ -1,0 +1,49 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+       body{
+        background-image: url(img/gedung.jpeg);
+       }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PTS KK RIRIN</title>
+    <link rel="stylesheet" href="css/pendaftaran.css">
+</head>
+<body>
+    <nav>
+        <button><a href="home.html">Home</a></button>
+        <button><a href="pendaftaran.html">pendaftaran</a></button>
+        <button><a href="petugas.html">petugas</a></button>
+        <button><a href="jurusan.html">jurusan</a></button>
+    </nav>
+    <h1>Regiatrasi Petugas</h1>
+    
+    <label for="Id">Id:<input type="Nama" id="Nama" name="Nama" placeholder="" /> </label><br />
+    <br />
+    <label for="Nama">Nama:<input type="Nama" id="Nama" name="Nama" placeholder="" /> </label><br />
+    <br />
+    <label for="Nomor"></label>Nomor:<input type="Nama" name="Nama" placeholder=""/> </label><br />
+    <br />
+    <label for="Email"></label>Email:<input type="Nama" name="Nama" placeholder=""/> </label><br />
+    <br />
+        
+    <button onclick="alert ('DATA ANDA SUDAH KAMI REKAP')" >Simpan</button>
+    <button>Edit</button>
+    <button onclick="hapusData()">Delete</button>
+</form>
+
+<script>
+    function hapusData() {
+        document.getElementById("Id").value = "";
+        document.getElementById("Nama").value = "";
+        document.getElementById("Nomor").value = "";
+        document.getElementById("Email").value = "";
+    }
+</script>
+
+</body>
+
+</html>
+    

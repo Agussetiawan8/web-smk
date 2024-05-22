@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PTS KK RIRIN</title>
+    <link rel="stylesheet" href="css/jurusan.css">
+</head>
+<style>
+    body {
+        background-image: url(img/bg-ppdb.jpg);
+        background-repeat: no-repeat;
+            background-size: cover;
+    }
+
+</style>
+<body>
+    <nav>
+        <button><a href="home.html">Home</a></button>
+        <button><a href="pendaftaran.html">pendaftaran</a></button>
+        <button><a href="petugas.html">petugas</a></button>
+        <button><a href="jurusan.html">jurusan</a></button>
+    </nav>
+   <h1>Formulir Pendaftaran</h1>
+   
+
+    <form>
+        <label for="Nama">Nama SISWA :<input type="Nama" id="Nama" name="Nama" value="" /> </label><br />
+        <br />
+        <label for="TTL">TTL SISWA :<input type="Nama" id="Nama" name="Nama" value="" /> </label><br />
+        <br />
+        <label for="ALAMAT"></label>ALAMAT SISWA :<input type="Nama" name="Nama" value=""/> </label><br />
+        <br />
+        <label for="JENIS KELAMIN"></label>JENIS KELAMIN :<input type="Name" name="Nama" value=""/> </label><br />
+        <br/>
+        <label for="AGAMA"></label>AGAMA :<input type="Name" name="Nama" value=""/> </label><br />
+        <br/>
+        <label for="TELEPON"></label>TELEPON :<input type="Name" name="Nama" value=""/> </label><br />
+        <br/>
+        <label for="EMAIL"></label>EMAIL :<input type="Name" name="Nama" =""/> </label><br />
+        <br/>
+
+
+        <div id="info"></div>
+        <label for="buah">Pilihan Kejuruan</label>
+        <select name="TK" id="PPLG">
+          <option>Teknik Ketenaga Listrikan (TK)</option>
+          <option>Pengembangan Perangkat Lunak & GIM</option>
+          
+        </select>
+              <button onclick="alert ('DATA ANDA SUDAH KAMI REKAP')" >Simpan</button>
+              <button>Edit</button>
+              <button onclick="hapusData()">Delete</button>
+          </form>
+      
+          <script>
+              function hapusData() {
+                  document.getElementById("Id Jurusan").value = "";
+                  document.getElementById("Pilihan Kejuruan").value = ""; 
+                  
+              }
+    
+              
+          </script>
+      
+      </body>
+
+
+        <button onclick="alert ('DATA ANDA SUDAH KAMI REKAP')" >Simpan</button>
+        <button>Edit</button>
+        <button onclick="hapusData()">Delete</button>
+    </form>
+
+    <script>
+        function hapusData() {
+            document.getElementById("NISN").value = "";
+            document.getElementById("Nama").value = "";
+            document.getElementById("TTL").value = "";
+            document.getElementById("Asal").value = "";
+        }
+    </script>
+
+</body>
+
+</html>
+        
+        
+        
+
+
+
+
+
+</body>
+</html>

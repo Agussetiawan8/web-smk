@@ -1,0 +1,28 @@
+nav{
+    display: flex;
+    justify-content: center;
+
+}
+a{
+    margin: 12px;
+}
+div.foto {
+    width: 180px;
+    height: 180px;
+    margin: 200px auto;
+    border: 2px solid rgb(255, 255, 255);
+    background-image: url(img/bromo.jpeg);
+     width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+  }
+
+
+nav button{
+    margin: 12px 10px;
+
+}
+p{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
